@@ -77,6 +77,8 @@ end
 
 interactive_menu
 
+
+
 # let's put all students into an array
 # students = [
 # {name: "Dr. Hannibal Lecter", cohort: :november},
