@@ -11,11 +11,10 @@ students = [
 {name: "Joffrey Baratheon", cohort: :november},
 {name: "Norman Bates", cohort: :november}
 ]
-
-students.each do | student |
-  if student[:name].length < 12
-  puts "#{student[:name]} (#{student[:cohort]} cohort)"
-  end
+x = 0
+while x <= students.length - 1 do
+puts "#{students[x][:name]} (#{students[x][:cohort]} cohort)"
+  x += 1
 end
 
 # def input_students
