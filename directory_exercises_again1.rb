@@ -4,8 +4,6 @@
 # are almost the same. This violates the DRY (Don't Repeat
 # Yourself) principle. How can you extract them into a method
 # to fix this problem?
-
-
 @students = [] # an empty array accessible to all methods
 # @name = STDIN.gets.chomp
 
