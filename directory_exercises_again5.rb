@@ -2,7 +2,6 @@
 # and 4) is hardcoded. Make the script more flexible by asking
 # for the filename if the user chooses these menu items.
 
-
 @students = [] # an empty array accessible to all methods
 def user_load_selection
   puts Dir["/Users/joannechen/Projects/student-directory/*.csv"]
